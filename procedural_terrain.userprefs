@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/EndlessTerrain.cs">
+    <Files>
+      <File FileName="Assets/scripts/MapDisplay.cs" Line="1" Column="1" />
+      <File FileName="Assets/editor/MapGeneratorEditor.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/Noise.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/MapGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/TextureGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/MeshGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/EndlessTerrain.cs" Line="15" Column="8" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
