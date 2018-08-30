@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5D1DEC69-B648-C65F-0D86-15717BD895EA}</ProjectGuid>
+    <ProjectGuid>{08CCD00B-9A55-1415-925B-CAC0DFDC66C8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -52,22 +52,23 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\scripts\EndlessTerrain.cs" />
+     <Compile Include="Assets\scripts\FalloffGenerator.cs" />
      <Compile Include="Assets\scripts\MapDisplay.cs" />
      <Compile Include="Assets\scripts\MapGenerator.cs" />
      <Compile Include="Assets\scripts\MeshGenerator.cs" />
      <Compile Include="Assets\scripts\Noise.cs" />
      <Compile Include="Assets\scripts\TextureGenerator.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>/home/john/Documents/unity3d/projects/procedural_terrain/procedural_terrain/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>/home/john/Documents/unity3d/projects/procedural_terrain/procedural_terrain--Unity3D/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/home/john/Documents/unity3d/projects/procedural_terrain/procedural_terrain/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/home/john/Documents/unity3d/projects/procedural_terrain/procedural_terrain--Unity3D/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>/home/john/Documents/unity3d/projects/procedural_terrain/procedural_terrain/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>/home/john/Documents/unity3d/projects/procedural_terrain/procedural_terrain--Unity3D/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/home/john/Documents/unity3d/projects/procedural_terrain/procedural_terrain/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/home/john/Documents/unity3d/projects/procedural_terrain/procedural_terrain--Unity3D/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/opt/Unity-2018.2.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -253,7 +254,7 @@
  <HintPath>/opt/Unity-2018.2.0b5/Editor/Data/Managed/Unity.Locator.dll</HintPath>
  </Reference>
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>/home/john/Documents/unity3d/projects/procedural_terrain/procedural_terrain/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>/home/john/Documents/unity3d/projects/procedural_terrain/procedural_terrain--Unity3D/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/opt/Unity-2018.2.0b5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
