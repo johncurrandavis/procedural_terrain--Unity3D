@@ -5,7 +5,7 @@ using UnityEngine;
 public static class Noise {
 
 	// method to generate a grid of values
-	public static float[,] GenerateNoiseMap(int mapSize, int seed, float scale, int octaves, float persistance, float lacunarity, Vector2 offset) {
+	public static float[,] GenerateNoiseMap(int mapSize, int seed, float scale, int octaves, float persistance, float lacunarity, float compensator, Vector2 offset) {
 		
 		float[,] noiseMap = new float[mapSize, mapSize];
 
@@ -46,7 +46,7 @@ public static class Noise {
 					frequency *= lacunarity;
 				}
 
-				noiseMap [x, y] = noiseHeight;
+				noiseMap [x, y] = noiseHeight * compensator;
 
 			}
 		}
